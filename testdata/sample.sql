@@ -1,3 +1,5 @@
+
+
 -- insert
 -- usersテーブルにnameカラムが「shohei」、emailカラムが「shohei@gmail.com」の新しいレコードを作成する。
 INSERT INTO users (name, email) VALUES ('Shohei', 'shohei@gmail.com');
@@ -17,4 +19,5 @@ SELECT * FROM tweets WHERE body like %深淵%;
 UPDATE tweets SET body = '更新テスト' WHERE id = 5;
 
 -- delete
+-- tweetsテーブルからidが7のレコードを削除する
 DELETE FROM tweets WHERE id = 7; 
